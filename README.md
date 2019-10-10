@@ -1,5 +1,7 @@
 # haaspelletstove2mqtt
-Decode the serial output from a Haas Pellet Stove and send it to MQTT (incl. Home Assistant auto discovery)
+Decode the serial output from a Haas Pellet Stove and send it to MQTT (incl. Home Assistant auto discovery).
+
+
 This script requires changing the `ser. Ausgabe` (serial output) parameter on the stove to `DAQ`.
 To do this, press `Menu`, hold `+` and press `-` 6 times. This enables the `Service:` menu item.
 Go to `Service:` > `Par. general` > `ser. Ausgabe` and choose `DAQ`.
